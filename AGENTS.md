@@ -13,6 +13,7 @@
 - `.claude-plugin/plugin.json` 描述 Claude 插件。
 - `scripts/validate-package.py` 检查包文件一致性。
 - `scripts/evaluate.py` 检查改写里脚本看得见的痕迹：指纹、破折号省略号、高频词、均匀句长、丢失的数字。
+- `scripts/calibrate.py` 用 calibration/ 下的对照语料校准词表：report.md 是生成的数据，结论写进 calibration/notes.md（重跑脚本只覆盖前者）。
 - `eval/cases/` 是评测集：一个目录一个用例，各含 `input.md` 和 `rewrite.md`。
 
 ## 修改规则

@@ -94,6 +94,8 @@ python3 scripts/evaluate.py 原文.md 改写.md
 python3 scripts/evaluate.py --all   # 检查 eval/cases/ 里全部用例
 ```
 
+词表有语料依据：`scripts/calibrate.py` 比较模型默认输出与真人新闻语料的词频（语料在 `calibration/`），数据见 `calibration/report.md`，结论见 `calibration/notes.md`。
+
 ## 完整示例
 
 **改写前（AI 味）：**
@@ -113,6 +115,7 @@ python3 scripts/evaluate.py --all   # 检查 eval/cases/ 里全部用例
 
 ## 版本历史
 
+- **1.1.0** - 用真人新闻语料校准词表（澎湃、中新网 8 篇对照模型默认输出 8 篇）：§12 新增"充分、绽放、强劲、重要意义、注入、备受瞩目"等 AI 独有的强信号词；evaluate.py 扩充词表与短语表（新增"专家表示"等借用权威短语和"充分+动词"搭配）；校准数据与结论入库（calibration/）。无新模式。
 - **1.0.0** - 首个版本。26 个本地化模式，五组结构（铺垫、节奏、夸大、排版、残留）沿用英文版框架；新增中文特有模式：§9 作文模板结构、§18 回避具体动词（"进行+名词"）、§21 中英文标点混用。配 `scripts/evaluate.py` 中文版评测脚本（中文分句、字数统计）与三个黄金用例。
 
 ## 许可证
