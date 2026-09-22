@@ -1,0 +1,42 @@
+{
+ "pair1": {
+  "input": "02-yayun.txt",
+  "A": "original",
+  "B": "rewrite"
+ },
+ "pair2": {
+  "input": "04-haiyang.txt",
+  "A": "rewrite",
+  "B": "original"
+ },
+ "pair3": {
+  "input": "03-kangyi.txt",
+  "A": "original",
+  "B": "rewrite"
+ },
+ "pair4": {
+  "input": "08-yundongyuan.txt",
+  "A": "rewrite",
+  "B": "original"
+ },
+ "pair5": {
+  "input": "07-tielu.txt",
+  "A": "original",
+  "B": "rewrite"
+ },
+ "pair6": {
+  "input": "05-kuangchan.txt",
+  "A": "rewrite",
+  "B": "original"
+ },
+ "pair7": {
+  "input": "01-yuebing.txt",
+  "A": "original",
+  "B": "rewrite"
+ },
+ "pair8": {
+  "input": "06-churujing.txt",
+  "A": "rewrite",
+  "B": "original"
+ }
+}
