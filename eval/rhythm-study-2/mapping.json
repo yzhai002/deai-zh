@@ -1,0 +1,18 @@
+{
+ "pair1": {
+  "input": "u2-tushuguan.txt",
+  "A": "original"
+ },
+ "pair2": {
+  "input": "u4-hupo.txt",
+  "A": "rewrite"
+ },
+ "pair3": {
+  "input": "u1-huancun.txt",
+  "A": "original"
+ },
+ "pair4": {
+  "input": "u3-dingdan.txt",
+  "A": "rewrite"
+ }
+}
