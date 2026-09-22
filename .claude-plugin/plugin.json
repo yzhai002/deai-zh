@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "deai-zh",
   "description": "去除中文文本的 AI 味，让文字读起来像人写的，且不改变原意。",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "yzhai002",
     "url": "https://github.com/yzhai002"
